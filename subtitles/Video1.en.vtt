@@ -1,0 +1,166 @@
+WEBVTT
+
+1
+00:00:04.000 --> 00:00:10.500
+Welcome! If you've just signed up for Terrascope, or you're curious about what it can do for your research,
+
+2
+00:00:10.500 --> 00:00:17.000
+you're in the right place. This video is designed for absolute beginners.
+
+3
+00:00:17.000 --> 00:00:25.000
+Terrascope is a free Belgian online platform that gives you access to tons of data
+
+4
+00:00:25.000 --> 00:00:32.500
+and tools to analyze it without needing a high-end computer.
+
+5
+00:00:32.500 --> 00:00:39.300
+This video is an initial tour of the three main parts of Terrascope:
+
+6
+00:00:39.300 --> 00:00:40.500
+the Viewer, the EOplaza, and the cloud processing environment.
+
+7
+00:00:39.000 --> 00:00:43.000
+This is the Terrascope homepage, your central hub.
+
+8
+00:00:43.000 --> 00:00:48.000
+From here you can access documentation, news, and advanced training.
+
+9
+00:00:48.000 --> 00:00:53.500
+In this video we'll focus on the Viewer and the EOplaza,
+
+10
+00:00:53.500 --> 00:00:57.500
+and then we'll see how they connect to cloud processing.
+
+11
+00:00:57.500 --> 00:01:01.500
+Don't worry, we'll clarify everything.
+
+12
+00:01:02.150 --> 00:01:07.150
+The Viewer lets you see satellite images without downloading anything.
+
+13
+00:01:07.150 --> 00:01:13.650
+You can zoom in and out and browse through recent images from different satellites.
+
+14
+00:01:13.650 --> 00:01:20.650
+For example, selecting the Sentinel-2 NDVI layer gives you a visual of vegetation greenness.
+
+15
+00:01:20.650 --> 00:01:26.150
+You can also export the current view as a PNG image,
+
+16
+00:01:26.150 --> 00:01:31.650
+or download the actual data layers like NDVI, SCL, or the quicklook for further use.
+
+17
+00:01:32.150 --> 00:01:39.650
+Now, if you want to generate information products or analyses, you go to the EOplaza.
+
+18
+00:01:39.650 --> 00:01:46.150
+This is a catalogue of services where you can find derived information products,
+
+19
+00:01:46.150 --> 00:01:52.150
+like crop-type classification maps, flood extent maps, or air quality data.
+
+20
+00:01:52.150 --> 00:01:58.150
+Let's take NDWI, the Normalized Difference Water Index, as an example.
+
+21
+00:01:58.150 --> 00:02:04.650
+NDWI is related to plant water content, and therefore a good proxy for plant water stress.
+
+22
+00:02:04.650 --> 00:02:10.650
+After selecting it, you click 'Get started' and it will open the openEO Web Editor , 
+
+23
+00:02:10.650 --> 00:02:17.150
+that's the cloud processing environment I mentioned.
+
+24
+00:02:17.990 --> 00:02:21.990
+Here you can run NDWI without writing code.
+
+25
+00:02:21.990 --> 00:02:25.990
+You define your area of interest and the time period,
+
+26
+00:02:25.990 --> 00:02:30.990
+choose the output format, for example, GTIFF in this case , 
+
+27
+00:02:30.990 --> 00:02:36.990
+and run the workflow directly in your browser with synchronous processing.
+
+28
+00:02:36.990 --> 00:02:43.490
+For larger areas, you can submit it as a batch job that runs on Terrascope's servers.
+
+29
+00:02:43.490 --> 00:02:47.990
+The results appear right here. You can explore them on an interactive map,
+
+30
+00:02:47.990 --> 00:02:54.490
+download them, or even export the workflow as Python or R code
+
+31
+00:02:54.490 --> 00:02:59.990
+if you want to reuse it later.
+
+32
+00:02:59.990 --> 00:03:05.490
+Let's quickly recap what you've learned in this video.
+
+33
+00:03:05.490 --> 00:03:13.990
+Viewer: look at satellite images, zoom, change layers, export PNG or download data.
+
+34
+00:03:13.990 --> 00:03:23.990
+EOplaza: a catalogue of products like crop maps or indices such as NDWI.
+
+35
+00:03:23.990 --> 00:03:31.490
+openEO Web Editor: run analyses without code.
+
+36
+00:03:31.490 --> 00:03:39.990
+You pick your area, time, and output format,
+
+37
+00:03:39.990 --> 00:03:44.990
+then run synchronously in your browser, or as a batch job for larger areas.
+
+38
+00:03:45.040 --> 00:03:53.040
+You've just seen the big picture: how to view, find, and process Earth observation data on Terrascope , 
+
+39
+00:03:53.040 --> 00:03:58.040
+all for free, all in the cloud.
+
+40
+00:03:58.040 --> 00:04:05.040
+Now that you understand the three main tools, it's time to get hands on with the first one.
+
+41
+00:04:05.040 --> 00:04:14.740
+In the next video, 'Your first look: the Viewer', we'll walk step by step through navigating the Viewer.
+

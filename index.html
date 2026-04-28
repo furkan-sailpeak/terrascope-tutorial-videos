@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terrascope Tutorials, Welcome to Terrascope</title>
+  <meta name="description" content="Free Belgian platform for Earth observation. Tutorial series introducing the Viewer, EOplaza and openEO Web Editor." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./">
+        <img src="assets/logo.png" alt="Terrascope" />
+      </a>
+      <nav class="nav">
+        <a href="#tutorials" class="nav-link is-current">Tutorials</a>
+        <a href="plan.html" class="nav-link">Plan</a>
+        <a href="https://terrascope.be/en" class="nav-link" target="_blank" rel="noopener">terrascope.be</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow">Tutorial series</p>
+      <h1>Learn Terrascope, video by video.</h1>
+      <p class="lead">Open-source satellite images? Well spotted. A short, friendly walkthrough of the Viewer, the EOplaza catalogue, and cloud processing, no high-end computer required.</p>
+      <div class="hero-cta">
+        <a href="#tutorial-1" class="btn btn-primary">Start with Tutorial 1</a>
+        <a href="#tutorials" class="btn btn-ghost">Browse all videos</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="tutorial-1" class="player-block">
+      <div class="player-meta">
+        <span class="badge">Tutorial 1</span>
+        <h2>Welcome to Terrascope</h2>
+        <p class="player-subtitle">Viewer · EOplaza · Cloud processing</p>
+      </div>
+
+      <div class="video-wrapper">
+        <video id="player" controls playsinline preload="metadata" poster="">
+          <source src="videos/Video1_Welcome_to_Terrascope_v5.mp4" type="video/mp4" />
+          <track id="track-en" kind="subtitles" srclang="en" label="English"  src="subtitles/Video1.en.vtt" default />
+          <track id="track-fr" kind="subtitles" srclang="fr" label="Français" src="subtitles/Video1.fr.vtt" />
+          <track id="track-nl" kind="subtitles" srclang="nl" label="Nederlands" src="subtitles/Video1.nl.vtt" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="controls-row">
+        <div class="caption-toggle">
+          <span class="ctrl-label">Captions</span>
+          <div class="lang-switch" role="tablist" aria-label="Caption language">
+            <button class="lang-btn is-active" data-lang="en"  role="tab" aria-selected="true">EN</button>
+            <button class="lang-btn"           data-lang="fr"  role="tab" aria-selected="false">FR</button>
+            <button class="lang-btn"           data-lang="nl"  role="tab" aria-selected="false">NL</button>
+            <button class="lang-btn"           data-lang="off" role="tab" aria-selected="false">Off</button>
+          </div>
+        </div>
+        <a class="download-link" href="subtitles/Video1.en.vtt" download>↓ Download captions</a>
+      </div>
+
+      <div class="chapters">
+        <h3>What's covered</h3>
+        <ol>
+          <li><button class="ch-btn" data-time="4">Welcome &amp; intro</button></li>
+          <li><button class="ch-btn" data-time="39">Homepage hub</button></li>
+          <li><button class="ch-btn" data-time="62">The Viewer</button></li>
+          <li><button class="ch-btn" data-time="92">EOplaza &amp; NDWI</button></li>
+          <li><button class="ch-btn" data-time="138">openEO Web Editor</button></li>
+          <li><button class="ch-btn" data-time="180">Recap</button></li>
+          <li><button class="ch-btn" data-time="225">What's next</button></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="tutorials" class="tutorial-grid">
+      <h2 class="section-title">All tutorials</h2>
+      <div class="cards">
+        <a href="#tutorial-1" class="card card-active">
+          <span class="card-num">01</span>
+          <h3>Welcome to Terrascope</h3>
+          <p>Overview of Viewer, EOplaza and cloud processing.</p>
+          <span class="card-meta">4 min · EN/FR/NL</span>
+        </a>
+        <div class="card card-soon">
+          <span class="card-num">02</span>
+          <h3>First look at the Viewer</h3>
+          <p>Navigate, change satellites, export images.</p>
+          <span class="card-meta">Coming soon</span>
+        </div>
+        <div class="card card-soon">
+          <span class="card-num">03</span>
+          <h3>Finding data in the EOplaza</h3>
+          <p>Search, tags, parameters, outputs.</p>
+          <span class="card-meta">Coming soon</span>
+        </div>
+        <div class="card card-soon">
+          <span class="card-num">04</span>
+          <h3>Cloud processing without code</h3>
+          <p>Build workflows in the openEO Web Editor.</p>
+          <span class="card-meta">Coming soon</span>
+        </div>
+        <div class="card card-soon">
+          <span class="card-num">05</span>
+          <h3>Jupyter notebooks</h3>
+          <p>For users with a coding background.</p>
+          <span class="card-meta">Coming soon</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Made for the KU&nbsp;Leuven Faculty of Science, Science Communication and Outreach course.</p>
+      <p><a href="https://terrascope.be/en" target="_blank" rel="noopener">terrascope.be</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

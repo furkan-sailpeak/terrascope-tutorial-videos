@@ -1,0 +1,166 @@
+WEBVTT
+
+1
+00:00:04.000 --> 00:00:10.500
+Welkom! Of je je net hebt aangemeld bij Terrascope, of je nieuwsgierig bent wat het kan betekenen voor jouw onderzoek,
+
+2
+00:00:10.500 --> 00:00:17.000
+je bent aan het juiste adres. Deze video is bedoeld voor absolute beginners.
+
+3
+00:00:17.000 --> 00:00:25.000
+Terrascope is een gratis Belgisch online platform dat je toegang geeft tot tonnen data
+
+4
+00:00:25.000 --> 00:00:32.500
+en analyse-tools, zonder dat je een krachtige computer nodig hebt.
+
+5
+00:00:32.500 --> 00:00:39.300
+Deze video is een eerste rondleiding door de drie hoofdonderdelen van Terrascope:
+
+6
+00:00:39.300 --> 00:00:40.500
+de Viewer, de EOplaza en de cloud-verwerkingsomgeving.
+
+7
+00:00:39.000 --> 00:00:43.000
+Dit is de Terrascope-homepage, jouw centrale hub.
+
+8
+00:00:43.000 --> 00:00:48.000
+Hier vind je documentatie, nieuws en gevorderde training.
+
+9
+00:00:48.000 --> 00:00:53.500
+In deze video focussen we op de Viewer en de EOplaza,
+
+10
+00:00:53.500 --> 00:00:57.500
+en zien we hoe ze verbonden zijn met cloud-verwerking.
+
+11
+00:00:57.500 --> 00:01:01.500
+Geen zorgen, we leggen alles uit.
+
+12
+00:01:02.150 --> 00:01:07.150
+Met de Viewer bekijk je satellietbeelden zonder iets te downloaden.
+
+13
+00:01:07.150 --> 00:01:13.650
+Je kan in- en uitzoomen en bladeren door recente beelden van verschillende satellieten.
+
+14
+00:01:13.650 --> 00:01:20.650
+Bijvoorbeeld: selecteer de Sentinel-2 NDVI-laag voor een visuele weergave van de vegetatie.
+
+15
+00:01:20.650 --> 00:01:26.150
+Je kan ook de huidige weergave exporteren als PNG-afbeelding,
+
+16
+00:01:26.150 --> 00:01:31.650
+of de eigenlijke datalagen downloaden zoals NDVI, SCL, of de quicklook voor verder gebruik.
+
+17
+00:01:32.150 --> 00:01:39.650
+Wil je informatieproducten of analyses genereren? Ga dan naar de EOplaza.
+
+18
+00:01:39.650 --> 00:01:46.150
+Dit is een catalogus van diensten waarin je afgeleide producten vindt,
+
+19
+00:01:46.150 --> 00:01:52.150
+zoals gewasclassificatiekaarten, overstromingskaarten, of luchtkwaliteitsdata.
+
+20
+00:01:52.150 --> 00:01:58.150
+Laten we NDWI als voorbeeld nemen, de Normalized Difference Water Index.
+
+21
+00:01:58.150 --> 00:02:04.650
+NDWI hangt samen met de watergehalte van planten, een goede indicator voor waterstress.
+
+22
+00:02:04.650 --> 00:02:10.650
+Na selectie klik je op 'Get started' en de openEO Web Editor opent , 
+
+23
+00:02:10.650 --> 00:02:17.150
+dat is de cloud-verwerkingsomgeving die ik vermeldde.
+
+24
+00:02:17.990 --> 00:02:21.990
+Hier draai je NDWI zonder code te schrijven.
+
+25
+00:02:21.990 --> 00:02:25.990
+Je definieert je interessegebied en de tijdsperiode,
+
+26
+00:02:25.990 --> 00:02:30.990
+kiest het uitvoerformaat, bijvoorbeeld GTIFF , 
+
+27
+00:02:30.990 --> 00:02:36.990
+en draait de workflow rechtstreeks in je browser met synchrone verwerking.
+
+28
+00:02:36.990 --> 00:02:43.490
+Voor grotere gebieden kan je het indienen als batch-job op de Terrascope-servers.
+
+29
+00:02:43.490 --> 00:02:47.990
+De resultaten verschijnen hier. Je kan ze verkennen op een interactieve kaart,
+
+30
+00:02:47.990 --> 00:02:54.490
+downloaden, of zelfs de workflow exporteren als Python- of R-code
+
+31
+00:02:54.490 --> 00:02:59.990
+om later te hergebruiken.
+
+32
+00:02:59.990 --> 00:03:05.490
+Laten we snel samenvatten wat je in deze video hebt geleerd.
+
+33
+00:03:05.490 --> 00:03:13.990
+Viewer: satellietbeelden bekijken, zoomen, lagen wisselen, exporteren als PNG of data downloaden.
+
+34
+00:03:13.990 --> 00:03:23.990
+EOplaza: een catalogus van producten zoals gewaskaarten of indices zoals NDWI.
+
+35
+00:03:23.990 --> 00:03:31.490
+openEO Web Editor: analyses uitvoeren zonder code.
+
+36
+00:03:31.490 --> 00:03:39.990
+Kies je gebied, tijd, en uitvoerformaat,
+
+37
+00:03:39.990 --> 00:03:44.990
+en draai het synchroon in je browser, of als batch-job voor grote gebieden.
+
+38
+00:03:45.040 --> 00:03:53.040
+Je hebt zojuist het grote plaatje gezien: hoe je aardobservatiedata kan bekijken, vinden en verwerken op Terrascope , 
+
+39
+00:03:53.040 --> 00:03:58.040
+gratis, en in de cloud.
+
+40
+00:03:58.040 --> 00:04:05.040
+Nu je de drie hoofdtools kent, is het tijd om met de eerste aan de slag te gaan.
+
+41
+00:04:05.040 --> 00:04:14.740
+In de volgende video, 'Eerste blik op de Viewer', lopen we stap voor stap door de Viewer.
+

@@ -1,0 +1,166 @@
+WEBVTT
+
+1
+00:00:04.000 --> 00:00:10.500
+Bienvenue ! Si vous venez de vous inscrire à Terrascope, ou êtes curieux de découvrir ce qu'il peut apporter à votre recherche,
+
+2
+00:00:10.500 --> 00:00:17.000
+vous êtes au bon endroit. Cette vidéo est conçue pour les débutants.
+
+3
+00:00:17.000 --> 00:00:25.000
+Terrascope est une plateforme belge en ligne gratuite qui donne accès à une multitude de données
+
+4
+00:00:25.000 --> 00:00:32.500
+et d'outils d'analyse, sans avoir besoin d'un ordinateur puissant.
+
+5
+00:00:32.500 --> 00:00:39.300
+Cette vidéo est un premier tour des trois parties principales de Terrascope :
+
+6
+00:00:39.300 --> 00:00:40.500
+le Viewer, l'EOplaza et l'environnement de traitement cloud.
+
+7
+00:00:39.000 --> 00:00:43.000
+Voici la page d'accueil de Terrascope, votre point central.
+
+8
+00:00:43.000 --> 00:00:48.000
+De là, vous accédez à la documentation, aux actualités et aux formations avancées.
+
+9
+00:00:48.000 --> 00:00:53.500
+Dans cette vidéo, nous nous concentrerons sur le Viewer et l'EOplaza,
+
+10
+00:00:53.500 --> 00:00:57.500
+puis nous verrons comment ils se connectent au traitement cloud.
+
+11
+00:00:57.500 --> 00:01:01.500
+Pas d'inquiétude, nous allons tout clarifier.
+
+12
+00:01:02.150 --> 00:01:07.150
+Le Viewer vous permet de voir des images satellites sans rien télécharger.
+
+13
+00:01:07.150 --> 00:01:13.650
+Vous pouvez zoomer et parcourir les images récentes de différents satellites.
+
+14
+00:01:13.650 --> 00:01:20.650
+Par exemple, sélectionner la couche NDVI Sentinel-2 donne un visuel de la verdeur de la végétation.
+
+15
+00:01:20.650 --> 00:01:26.150
+Vous pouvez aussi exporter la vue actuelle en image PNG,
+
+16
+00:01:26.150 --> 00:01:31.650
+ou télécharger les couches de données comme NDVI, SCL, ou le quicklook pour une utilisation ultérieure.
+
+17
+00:01:32.150 --> 00:01:39.650
+Maintenant, si vous voulez générer des produits ou des analyses, allez sur l'EOplaza.
+
+18
+00:01:39.650 --> 00:01:46.150
+C'est un catalogue de services où l'on trouve des produits dérivés,
+
+19
+00:01:46.150 --> 00:01:52.150
+comme des cartes de classification des cultures, d'inondations, ou de qualité de l'air.
+
+20
+00:01:52.150 --> 00:01:58.150
+Prenons l'exemple du NDWI, l'indice normalisé de différence d'eau.
+
+21
+00:01:58.150 --> 00:02:04.650
+Le NDWI reflète la teneur en eau des plantes, un bon indicateur du stress hydrique.
+
+22
+00:02:04.650 --> 00:02:10.650
+Après l'avoir sélectionné, cliquez sur « Get started » pour ouvrir l'openEO Web Editor , 
+
+23
+00:02:10.650 --> 00:02:17.150
+c'est l'environnement de traitement cloud dont je parlais.
+
+24
+00:02:17.990 --> 00:02:21.990
+Ici, vous pouvez exécuter NDWI sans écrire de code.
+
+25
+00:02:21.990 --> 00:02:25.990
+Vous définissez votre zone d'intérêt et la période,
+
+26
+00:02:25.990 --> 00:02:30.990
+choisissez le format de sortie, par exemple GTIFF , 
+
+27
+00:02:30.990 --> 00:02:36.990
+et lancez le workflow directement dans votre navigateur en traitement synchrone.
+
+28
+00:02:36.990 --> 00:02:43.490
+Pour de plus grandes zones, soumettez un batch job sur les serveurs de Terrascope.
+
+29
+00:02:43.490 --> 00:02:47.990
+Les résultats apparaissent ici. Vous pouvez les explorer sur une carte interactive,
+
+30
+00:02:47.990 --> 00:02:54.490
+les télécharger, ou même exporter le workflow en code Python ou R
+
+31
+00:02:54.490 --> 00:02:59.990
+pour le réutiliser plus tard.
+
+32
+00:02:59.990 --> 00:03:05.490
+Récapitulons rapidement ce que vous avez appris.
+
+33
+00:03:05.490 --> 00:03:13.990
+Viewer : voir des images satellites, zoomer, changer de couches, exporter en PNG ou télécharger.
+
+34
+00:03:13.990 --> 00:03:23.990
+EOplaza : un catalogue de produits comme les cartes de cultures ou des indices comme le NDWI.
+
+35
+00:03:23.990 --> 00:03:31.490
+openEO Web Editor : lancer des analyses sans code.
+
+36
+00:03:31.490 --> 00:03:39.990
+Choisissez votre zone, votre période et votre format de sortie,
+
+37
+00:03:39.990 --> 00:03:44.990
+puis lancez en synchrone dans le navigateur, ou en batch pour de grandes zones.
+
+38
+00:03:45.040 --> 00:03:53.040
+Vous venez de voir la vue d'ensemble : comment voir, trouver et traiter des données d'observation de la Terre sur Terrascope , 
+
+39
+00:03:53.040 --> 00:03:58.040
+le tout gratuitement, et dans le cloud.
+
+40
+00:03:58.040 --> 00:04:05.040
+Maintenant que vous connaissez les trois outils principaux, place à la pratique avec le premier.
+
+41
+00:04:05.040 --> 00:04:14.740
+Dans la prochaine vidéo, « Premier regard sur le Viewer », nous le parcourrons étape par étape.
+
