@@ -78,6 +78,12 @@ python3 ../output/subtitles/build_subs.py
 cp ../output/subtitles/Video1.*.vtt subtitles/
 ```
 
+## Credits
+
+Intro audio: *space intro 4.wav* by [zagi2](https://freesound.org/people/zagi2/) on Freesound,
+licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+Downloaded April 28, 2026.
+
 ## Adding the next video
 
 1. Render the new video (e.g. via `../output/video2.sh`, which reuses

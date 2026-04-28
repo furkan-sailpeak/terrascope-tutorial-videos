@@ -152,6 +152,11 @@ video::cue{
 .footer-inner{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;color:var(--text-muted);font-size:14px}
 .footer-inner a{color:var(--text);border-bottom:1px solid var(--hairline)}
 .footer-inner a:hover{border-color:var(--text)}
+.footer-inner > div{display:flex;flex-direction:column;gap:6px}
+.attribution{color:var(--text-muted);font-size:12px;line-height:1.5}
+.attribution em{font-style:italic;color:var(--text)}
+.attribution a{border-bottom:1px solid var(--hairline)}
+.attribution a:hover{border-color:var(--text);color:var(--text)}
 
 /* Active nav link */
 .nav-link.is-current{color:var(--text);position:relative}
